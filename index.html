@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <link rel="stylesheet" type="text/css" href="styles/mainStyle.css">
+</head>
+<body>
+
+    <audio src="sounds/fire.mp3" id="flameAudio" loop></audio>
+    
+    <main class="rolleteHolder">
+        <header>
+            <img id="mediumDecorFront" class="decorHeader" src="images/potMediumDecorationFront.png" />
+
+            <img id='bigDecorFront' class="decorHeader" src="images/decorTimeBig.png" />
+
+            <span class="goldText" id="priceText">€1,142.34</span>
+
+            <img class="universalFlame" src="images/universalFlame.png">
+
+            <img id="activeFlame" src="images/fireImages/fire_1.png">
+
+            <span class="payBeforeSpan">Pays Before 
+                <i class='far'>&#xf017;</i>
+                <span id="payBeforeTimer">00:00:00</span>
+            </span>
+        </header>
+
+        <div class="labelHolder">
+            <section>
+                <div class="labelImgHolder" 
+                     style="background-image: url(images/potMediumLabelCeiling.png);"></div>
+                
+                 <span class="goldText displayJackpot">€114,233.62</span>
+
+            </section>
+
+            <section>
+                <div class="labelImgHolder"
+                     style="background-image: url(images/potMediumLabelProg.png);"></div>
+
+                     <div class="displayJackpot">
+
+                        <div class="goldText" style="text-align:left">€571.17</div>
+                         
+                        <div class="payBeforeLabel">Pays Before 
+                            <span class="goldText">€2,300.00</span>
+                        </div>
+                    
+                    </div>
+            </section>
+        </div>
+
+    </main>
+
+
+    <script src="scripts/mainJavaScript.js"></script>
+</body>
+</html>
